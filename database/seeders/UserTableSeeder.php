@@ -18,7 +18,24 @@ class UserTableSeeder extends Seeder
             //admin
             [
                 'name' => 'admin',
-                'email' => 'nirmalrokamagar54@gmail.com',
+                'email' => 'admin@admin.com',
+                'role' => 'admin',
+                'password' => hash::make('password'),
+            ],
+
+            //agent
+            [
+                'name' => 'agent',
+                'email' => 'agent@agent.com',
+                'role' => 'agent',
+                'password' => hash::make('password'),
+            ],
+            
+            //user
+            [
+                'name' => 'uesr',
+                'email' => 'user@user.com',
+                'role' => 'user',
                 'password' => hash::make('password'),
             ]
             ]);
