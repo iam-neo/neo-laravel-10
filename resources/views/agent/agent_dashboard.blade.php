@@ -6,6 +6,6 @@
     <title>Agent Dashboard</title>
 </head>
 <body>
-    This is agent Dashboard
+   <h1> This is agent Dashboard </h1>
 </body>
 </html>
